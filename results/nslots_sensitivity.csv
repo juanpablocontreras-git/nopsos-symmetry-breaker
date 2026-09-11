@@ -1,0 +1,7 @@
+instance_name,formulation,n_ops,n_slots,n_dfa_states,n_dfa_arcs,n_binary_vars,n_constraints,obj_value,best_bound,gap,milp_time,nlp_time,total_time,n_nodes,status,n_variables,gap_pct
+problem1_mouret_n11,dfa,8,11,10,67,825,2930,14000.0,14000.0,0.0,0.2031,,0.2031,1,solved,1661,0.0
+problem1_mouret_n13,dfa,8,13,10,67,975,3850,14000.0,14000.0,0.0,0.3125,,0.3125,1,solved,1963,0.0
+problem3_mouret_n23,dfa,14,23,16,167,4163,23113,10687.5,10687.5,0.0,3.0469,,3.0469,1,solved,8487,0.0
+problem3_mouret_n25,dfa,14,25,16,167,4525,26921,10687.5,10687.5,0.0,6.375,,6.375,1,solved,9225,0.0
+problem2_mouret_n23,dfa,14,23,16,167,4163,23619,10300.0,10300.00000057,0.0,4.75,,4.75,4,solved,8027,0.0
+problem2_mouret_n25,dfa,14,25,16,167,4525,27471,10300.0,10300.00000057,0.0,11.6406,,11.6406,1,solved,8725,0.0

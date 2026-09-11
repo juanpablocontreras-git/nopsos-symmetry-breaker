@@ -1,0 +1,2 @@
+instance_name,formulation,n_ops,n_slots,n_dfa_states,n_dfa_arcs,n_binary_vars,n_constraints,obj_value,best_bound,gap,milp_time,nlp_time,total_time,n_nodes,status,n_variables,gap_pct
+problem1_mouret_n13slots,dfa,8,13,10,67,975,3850,14000.0,14000.0,0.0,0.2812,,0.2812,1,solved,1963,0.0

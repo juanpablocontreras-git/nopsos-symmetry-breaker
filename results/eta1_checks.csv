@@ -1,0 +1,14 @@
+check,instance,n,obj,time,status
+slots,problem1_mouret,9,14000.0,0.0938,solved
+slots,problem1_mouret,11,14000.0,0.1562,solved
+slots,problem1_mouret,13,14000.0,0.2656,solved
+slots,problem2_mouret,21,10300.0,6.2969,solved
+slots,problem2_mouret,23,10300.0,12.9688,solved
+slots,problem2_mouret,25,10300.0,17.0938,solved
+slots,problem3_mouret,21,10687.5,3.0156,solved
+slots,problem3_mouret,23,10687.5,6.75,solved
+slots,problem3_mouret,25,10687.5,4.9062,solved
+ndist,problem1_mouret,3,14000.0,0.1094,solved
+ndist,problem2_mouret,5,10300.0,14.5938,solved
+ndist,problem3_mouret,5,10687.5,2.6562,solved
+ndist,problem4_mouret,7,13500.0,7.9375,solved

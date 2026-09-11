@@ -1,0 +1,3 @@
+instance,n_ops,n_dfa_states,n_dfa_arcs,n_seq_no_sbs,n_seq_dfa,reduction
+synth_25,19,20,229,1013709170073600,1714091402,591397.4
+synth_20,20,21,258,20274183401472000,25728858464,787993.9

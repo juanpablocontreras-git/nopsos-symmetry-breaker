@@ -1,0 +1,21 @@
+.vs/
+__pycache__/
+*.py[cod]
+
+# Generated experiment artifacts: aggregated CSV results are tracked,
+# raw solver logs and AMPL scratch files are not
+results/*
+!results/*.csv
+instances/*.dat
+_iis.run
+
+# Local environment files
+.env
+.venv/
+venv/
+
+# Locally generated instance pools (regenerable via src.instance_generator)
+local_instances/
+instances/synth_*.json
+instances/openshop_*.json
+instances/*_fav_*.json

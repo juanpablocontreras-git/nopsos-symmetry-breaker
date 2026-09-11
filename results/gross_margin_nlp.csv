@@ -1,0 +1,4 @@
+instance_name,config,n_ops,n_dfa_states,n_dfa_arcs,milp_obj,milp_status,milp_time,nlp_obj,nlp_status,nlp_time,iterations,cuts
+problem1_mouret,dfa,8,10,65,14000.0,solved,1.453125,13000.0,solved,0.46875,11,10
+problem1_mouret,re,8,16,58,14000.0,solved,0.125,13249.999999991,solved,0.234375,1,0
+problem2_mouret,dfa,14,16,164,10300.000004540514,solved,101.375,,infeasible,0.953125,25,25

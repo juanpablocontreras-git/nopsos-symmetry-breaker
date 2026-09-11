@@ -1,0 +1,9 @@
+instance,config,n_ops,n_slots,states,arcs,obj,gap_pct,time,nodes,status
+problem1_mouret,dfa,8,9,10,65,14000.0,0.0,0.125,1,solved
+problem1_mouret,re,8,9,16,58,14000.0,0.0,0.1094,1,solved
+problem2_mouret,dfa,14,21,16,164,10300.0,0.0,6.4688,1,solved
+problem2_mouret,re,14,21,29,118,9612.96,7.147100000000001,598.9844,5222,limit
+problem3_mouret,dfa,14,21,16,164,10687.5,0.0,2.9844,1,solved
+problem3_mouret,re,14,21,29,118,10687.5,0.0,3.3594,1,solved
+problem4_mouret,dfa,19,26,21,268,13500.0,0.0,5.375,1,solved
+problem4_mouret,re,19,26,38,134,13500.0,0.0,33.0469,1,solved

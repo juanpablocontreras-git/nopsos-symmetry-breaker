@@ -1,0 +1,87 @@
+{
+  "_comment": "Refinery network of Example 2 of Wang et al. (2024), Comput. Chem. Eng. 187, 108714 (Tables 3 and 6). Candidate operations: one per allowed (parcel, tank) pair and one per allowed (tank, CDU) pair.",
+  "parcels": [
+    "P1",
+    "P2",
+    "P3"
+  ],
+  "tanks": [
+    "T1",
+    "T2",
+    "T3",
+    "T4"
+  ],
+  "cdus": [
+    "CDU1",
+    "CDU2"
+  ],
+  "vlcc_of_parcel": {
+    "P1": 1,
+    "P2": 1,
+    "P3": 1
+  },
+  "volume_of_parcel": {
+    "P1": 40,
+    "P2": 40,
+    "P3": 45
+  },
+  "W_unload": [
+    "u_P1_T1",
+    "u_P2_T2",
+    "u_P3_T2",
+    "u_P2_T3",
+    "u_P3_T3",
+    "u_P1_T4"
+  ],
+  "W_charge": [
+    "d_T1_CDU1",
+    "d_T2_CDU2",
+    "d_T3_CDU2",
+    "d_T4_CDU1"
+  ],
+  "op_parcel": {
+    "u_P1_T1": "P1",
+    "u_P2_T2": "P2",
+    "u_P3_T2": "P3",
+    "u_P2_T3": "P2",
+    "u_P3_T3": "P3",
+    "u_P1_T4": "P1"
+  },
+  "op_tank": {
+    "u_P1_T1": "T1",
+    "d_T1_CDU1": "T1",
+    "u_P2_T2": "T2",
+    "u_P3_T2": "T2",
+    "d_T2_CDU2": "T2",
+    "u_P2_T3": "T3",
+    "u_P3_T3": "T3",
+    "d_T3_CDU2": "T3",
+    "u_P1_T4": "T4",
+    "d_T4_CDU1": "T4"
+  },
+  "op_cdu": {
+    "d_T1_CDU1": "CDU1",
+    "d_T2_CDU2": "CDU2",
+    "d_T3_CDU2": "CDU2",
+    "d_T4_CDU1": "CDU1"
+  },
+  "duration": {
+    "u_P1_T1": 5.839,
+    "u_P2_T2": 5.839,
+    "u_P3_T2": 6.569,
+    "u_P2_T3": 5.839,
+    "u_P3_T3": 6.569,
+    "u_P1_T4": 5.839,
+    "d_T1_CDU1": 36.0,
+    "d_T2_CDU2": 36.0,
+    "d_T3_CDU2": 36.0,
+    "d_T4_CDU1": 36.0
+  },
+  "H": 72,
+  "n_slots": 7,
+  "release": {
+    "P1": 0,
+    "P2": 0,
+    "P3": 0
+  }
+}

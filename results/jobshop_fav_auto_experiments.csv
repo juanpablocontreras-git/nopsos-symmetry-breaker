@@ -1,0 +1,11 @@
+instance_name,config,objective,status,obj,best_bound,gap_pct,time,n_nodes,n_ops,n_dfa_states,n_dfa_arcs
+jobshop_fav_01,nosbs-auto,jobshop_makespan,solved,8.0,8.0,0.0,0.109375,1,9,10,54
+jobshop_fav_02,nosbs-auto,jobshop_makespan,solved,13.99999909090902,13.99999909091,0.0,3.453125,3968,12,13,90
+jobshop_fav_03,nosbs-auto,jobshop_makespan,solved,11.99999999739723,11.9999999974,0.0,28.65625,13964,12,13,96
+jobshop_fav_04,nosbs-auto,jobshop_makespan,limit,14.99998399094662,14.0,6.666600000000001,598.8125,214640,16,17,160
+jobshop_fav_05,nosbs-auto,jobshop_makespan,solved,15.99999987798329,15.99999987798,0.0,11.875,8049,15,16,135
+jobshop_fav_06,nosbs-auto,jobshop_makespan,limit,12.99999922936922,10.0,23.0769,598.8125,188468,15,16,150
+jobshop_fav_07,nosbs-auto,jobshop_makespan,limit,18.9999969980098,14.0,26.3158,598.5625,61185,20,21,240
+jobshop_fav_08,nosbs-auto,jobshop_makespan,limit,16.99999900180066,12.0,29.4118,598.390625,67149,20,21,250
+jobshop_fav_09,nosbs-auto,jobshop_makespan,limit,17.9999991428537,13.0,27.777799999999996,598.8125,17728,25,26,375
+jobshop_fav_10,nosbs-auto,jobshop_makespan,limit,18.99999900785637,14.0,26.3158,598.828125,25608,24,25,336

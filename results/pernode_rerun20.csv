@@ -1,0 +1,4 @@
+instance_name,config,objective,seed,status,obj,best_bound,gap_pct,time,n_nodes,lp_bound,root_relax,n_sbs_rows,deadline,n_ops,n_dfa_states,n_dfa_arcs
+synth_20,dfa,wct,0,limit,1268.0,776.0000000067,38.8013,596.828125,7318,775.9999999999994,776.0,,,20,21,258
+synth_20,pairwise,wct,0,limit,1288.0,776.0000000038,39.7516,598.78125,19044,776.0000000000002,776.0,3078,,20,21,258
+synth_20,nosbs-off,wct,0,limit,1265.9999966941753,776.0000000001,38.7046,598,112154,775.9999999999999,776.0,,,20,21,258

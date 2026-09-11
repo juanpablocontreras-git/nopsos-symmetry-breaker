@@ -1,0 +1,54 @@
+{
+  "_comment": "Template for a crude-oil instance. Rename and fill in your data.",
+
+  "R_V": ["V1", "V2"],
+  "R_S": ["ST1", "ST2", "ST3"],
+  "R_C": ["CT1", "CT2"],
+  "R_D": ["CDU1"],
+
+  "W_U": ["u1", "u2"],
+  "W_T": ["t1", "t2", "t3"],
+  "W_D": ["d1", "d2"],
+
+  "op_inlet":  {"u1":"V1", "u2":"V2", "t1":"ST1", "t2":"ST2", "t3":"ST3", "d1":"CT1", "d2":"CT2"},
+  "op_outlet": {"u1":"ST1","u2":"ST2","t1":"CT1", "t2":"CT1", "t3":"CT2", "d1":"CDU1","d2":"CDU1"},
+
+  "C": ["CrudeA", "CrudeB"],
+  "K": ["sulfur"],
+
+  "H": 48.0,
+  "n_slots": 10,
+
+  "s_r": {"V1": 0.0, "V2": 8.0},
+
+  "FR_lb": {"u1":100,"u2":100,"t1":80,"t2":80,"t3":80,"d1":50,"d2":50},
+  "FR_ub": {"u1":400,"u2":400,"t1":300,"t2":300,"t3":300,"d1":200,"d2":200},
+
+  "Vt_lb": {"u1":0,"u2":0,"t1":0,"t2":0,"t3":0,"d1":0,"d2":0},
+  "Vt_ub": {"u1":2000,"u2":2000,"t1":1500,"t2":1500,"t3":1500,"d1":1000,"d2":1000},
+
+  "Lt_lb": {"ST1":100,"ST2":100,"ST3":100,"CT1":50,"CT2":50},
+  "Lt_ub": {"ST1":3000,"ST2":3000,"ST3":3000,"CT1":1000,"CT2":1000},
+  "Lt0":   {"ST1":1000,"ST2":800,"ST3":500,"CT1":200,"CT2":150},
+
+  "D_lb": {"CT1": 400, "CT2": 400},
+  "D_ub": {"CT1": 2000, "CT2": 2000},
+
+  "ND_lb": 2,
+  "ND_ub": 6,
+
+  "x_lb": {"u1__sulfur": 0.0, "u2__sulfur": 0.0},
+  "x_ub": {"u1__sulfur": 0.05, "u2__sulfur": 0.05},
+
+  "x_prop": {"CrudeA__sulfur": 0.01, "CrudeB__sulfur": 0.04},
+
+  "G_crude": {"CrudeA": 25.0, "CrudeB": 18.0},
+
+  "L0": {
+    "ST1__CrudeA": 600.0, "ST1__CrudeB": 400.0,
+    "ST2__CrudeA": 500.0, "ST2__CrudeB": 300.0,
+    "ST3__CrudeA": 300.0, "ST3__CrudeB": 200.0,
+    "CT1__CrudeA": 120.0, "CT1__CrudeB":  80.0,
+    "CT2__CrudeA":  90.0, "CT2__CrudeB":  60.0
+  }
+}
